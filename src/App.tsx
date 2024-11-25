@@ -4,44 +4,33 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 function App() {
   return (
     <div className='bg-beige min-h-screen flex flex-col justify-center items-center p-8 ephesis-regular'>
-      <div className='w-1/5'>
-        <img src='/3.png' />
+      <div className='w-2/3 md:w-1/5'>
+        <img src='/4.png' />
       </div>
       <div className=''>
         <header className='text-center mb-8'>
           <h1 className='text-4xl font-bold'>Piękna twarz po Ajurwedyjsku</h1>
         </header>
         <main className='flex flex-col justify-center items-center text-2xl'>
-          <h3>
-            Materiały do pobrania po uczestnictwie w
-            warsztatach
-          </h3>
-          <div className='flex items-center justify-between p-2'>
-            <div className='file-space p-4 w-1/3 text-center'>
-              <p>Poradnik</p>
-              <a
-                href='/path/to/file1'
-                download
-                className='text-blue-500 underline'
-              >
+          <h3>Materiały do pobrania po warsztatach</h3>
+          <div className='flex items-center justify-between p-2 mt-8'>
+            <div className='file-space p-4 text-center'>
+              <p>Naturalne kosmetyki</p>
+              <a href='/path/to/file1' download className='underline'>
                 <img
                   src='/pdf.png'
                   alt='PDF File'
-                  className='inline-block w-24 h-auto'
+                  className='inline-block w-16 h-auto'
                 />
               </a>
             </div>
-            <div className='file-space p-4 w-1/3 text-center'>
-              <p>Przepisy</p>
-              <a
-                href='/path/to/file2'
-                download
-                className='text-blue-500 underline'
-              >
+            <div className='file-space p-4 text-center'>
+              <p>Napary ziołowe i herbatki</p>
+              <a href='/path/to/file2' download className='underline'>
                 <img
                   src='/pdf.png'
                   alt='PDF File'
-                  className='inline-block w-24 h-auto'
+                  className='inline-block w-16 h-auto'
                 />
               </a>
             </div>
