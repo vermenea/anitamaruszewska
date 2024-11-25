@@ -5,7 +5,7 @@ function App() {
   return (
     <div className='bg-beige min-h-screen flex flex-col justify-center items-center p-8 ephesis-regular'>
       <div className='w-1/5'>
-        <img src='/src/assets/3.png' />
+        <img src='/3.png' />
       </div>
       <div className=''>
         <header className='text-center mb-8'>
@@ -25,7 +25,7 @@ function App() {
                 className='text-blue-500 underline'
               >
                 <img
-                  src='/src/assets/pdf.png'
+                  src='/pdf.png'
                   alt='PDF File'
                   className='inline-block w-24 h-auto'
                 />
@@ -39,7 +39,7 @@ function App() {
                 className='text-blue-500 underline'
               >
                 <img
-                  src='/src/assets/pdf.png'
+                  src='/pdf.png'
                   alt='PDF File'
                   className='inline-block w-24 h-auto'
                 />
