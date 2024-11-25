@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ephesis-regular {
+  font-family: "Ephesis", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
