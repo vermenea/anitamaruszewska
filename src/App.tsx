@@ -16,7 +16,11 @@ function App() {
           <div className='flex items-center justify-between p-2 mt-8'>
             <div className='file-space p-4 text-center'>
               <p>Naturalne kosmetyki</p>
-              <a href='/path/to/file1' download className='underline'>
+              <a
+                href='/Naturalne kosmetyki .pdf'
+                download
+                className='underline'
+              >
                 <img
                   src='/pdf.png'
                   alt='PDF File'
@@ -26,7 +30,7 @@ function App() {
             </div>
             <div className='file-space p-4 text-center'>
               <p>Napary ziołowe i herbatki</p>
-              <a href='/path/to/file2' download className='underline'>
+              <a href='/Napary-i-herbatki.pdf' download className='underline'>
                 <img
                   src='/pdf.png'
                   alt='PDF File'
